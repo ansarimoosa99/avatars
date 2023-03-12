@@ -1,0 +1,91 @@
+body {
+  font-family: sans-serif;
+}
+
+* {
+  margin: 0;
+}
+
+.disp-flex {
+  display: flex;
+  margin: 0.5em 0;
+}
+
+.br {
+  border: 1px solid plum;
+  background-color: palegreen;
+}
+
+.br-dg {
+  border: 1px solid red;
+  background-color: plum;
+}
+
+.br-sc {
+  border: 1px solid green;
+  background-color: gray;
+}
+
+.av-s {
+  /* border: 1px solid red; */
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.6rem;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  /* background-color: pink;
+  color: black; */
+  margin-inline: 0.2em;
+}
+
+.av-s img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  border: 1px solid lightcoral;
+}
+
+.av-m {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  /* background-color: pink;
+  color: black; */
+  margin-inline: 0.2em;
+}
+
+.av-m img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  border: 1px solid lightcoral;
+}
+
+.av-l {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  /* background-color: pink;
+  color: black; */
+  margin-inline: 0.2em;
+}
+
+.av-l img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  border: 1px solid lightcoral;
+}
